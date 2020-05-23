@@ -13,12 +13,39 @@ function UploadProductPage() {
 
         <br />
         <br />
+        <label>Title</label>
         <input 
           onChange
           value
         />
         <br />
         <br />
+        <label>Description</label>
+        <textarea 
+          onChange
+          value
+        />
+        <br />
+        <br />
+        <label>Price($)</label>
+        <input
+          onChange
+          value
+          type="number"
+        />
+        <select>
+          <option key value>
+
+          </option>
+        </select>
+        <br />
+        <br />
+
+        <button
+          onClick
+        >
+          Submit
+        </button>
 
       </form>
     </div>
